@@ -20,7 +20,7 @@ export function Header() {
     	console.log('before i', i);
     	console.log(sortedArray[i]);
     	console.log(sortedArray[i + 1]);
-      if ((i < sortedArray.length - 1) && sortedArray[i].toLowerCase() == sortedArray[i + 1].toUpperCase()) { //0==1
+      if ((i < sortedArray.length - 1) && sortedArray[i].toLowerCase() == sortedArray[i + 1].toLowerCase()) { //0==1
       	array.push(sortedArray[i]);
         i = i + 1;
       }
